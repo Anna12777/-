@@ -1,1 +1,11 @@
-header {background-color: blanchedalmond;}
+h1 {font-family: Arial; color: rgba(100, 154, 190, 0.952);}
+h1{background-color: rgba(255, 198, 222, 0.493);}
+body {background-color: white;}
+header{background-color: rgba(252, 222, 140, 0.726);}
+.header_wrapper{display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between;} 
+.header_nav{display: flex; flex-wrap: wrap;}
+.header_logo{flex-basis: 20%;}
+.header_menu{display: flex;flex-wrap: wrap;}
+.header_item{margin-right: 70px;  border-width: 0px; text-decoration: none; border-left-style: solid; }
+.footer_wrapper{display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between;}
+.footer_logo{margin-right: 30px; border-width: 5px;}

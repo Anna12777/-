@@ -3,28 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="css/fon.css">
+    <title>Document</title>
     <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet"> 
 </head>
 <body>
-    <nav> 
-         <ul>
-            <li><a href="logo.png"><img src="img/logo.png" alt="Логотип" width="500"></a></li>
-             <li><a href="pages/salfe.html">О СЕБЕ</a></li>
-             <li><a href="index.html.html#footprint">КОМПЕТЕНЦИИ</a></li>
-             <li><a href="pages/salfe.html">РЕЗЮМЕ</a></li>
-             <li><a href="pages/salfe.html">ПОРТФОЛИО</a></li>
-             <li><a href="pages/salfe.html">КОНТАКТЫ</a></li>
+    <header>
+       <div class="header_wrapper">
+        <div class="header_logo"><a href="logo.png"><img src="img/logo.png" alt="Логотип"  width="100"></a></div>
+    <nav class="header_nav"> 
+         <ul class="header_menu">
+            
+             <li class="header_item"><a href="pages/salfe.html">О СЕБЕ</a></li>
+             <li class="header_item"><a href="index.html.html#footprint">КОМПЕТЕНЦИИ</a></li>
+             <li class="header_item"><a href="pages/salfe.html">РЕЗЮМЕ</a></li>
+             <li class="header_item"><a href="pages/salfe.html">ПОРТФОЛИО</a></li>
+             <li class="header_item"><a href="pages/kontakt.html">КОНТАКТЫ</a></li>
         </ul>
     </nav>
-    <h1> 
-        Веб-технологии
-        </h1>
+</div>
+    
     </header>
     
     <main>
         <section>
+            <h1> 
+                Веб-технологии
+            </h1>
             <div>
             Это технологии формирования и поддержки разных информационных ресурсов в сети интернет. 
             </div>
@@ -35,35 +40,43 @@
         Теперь время интересных фактов! В Гималаях (юго-западный Китай) живет малая панда (красная панда). В английском языке её называют «Firefox». Это слово вдохновило создателей популярного браузера… вот только на логотип они почему-то поместили красную лису, а не панду. 
         </div>
         <img src="img/veb2.png" alt="Картинка" width="400">
-</section>
-<section>
+    </section>
+    <section>
     <div>
     На самом первом логотипе Apple был изображен сидящий под яблоней сэр Исаак Ньютон. Над ним нависает вот-вот готовое упасть яблоко. 
     </div>
     <img src="img/veb3.png" alt="Картинка" width="400">
-</section>
-<section>
-    <a name="footprint">
-        
-    </a>
-    <h2>
-
-    </h2>
-    <button onclick="">
-        
-    </button>
-</section>
+     </section>
+     <section>
+        <h1> Лучшие существа </h1>
+        <a name ="jak"></a> <!--Мы создали якорь, чтобы при нажатии на какой то пункт нас отбрасывало в эту секцию-->
+    </section>
+    <section>
+        <ul>
+            <li>Первое</li>
+            <li>Второе</li>
+            <li>Третье</li>
+        </ul>
+    </section>
+    <section>
+        <h1> Ну что ж 
+        </h1>
+        <div> Ещё больше интересных фактов</div>
+        <button onclick="">Да</button>
+    </section>
     </main>
 
     <footer>
-    <div>
-    <a href = "https://vk.com/i.web.designer"> <img src = "img/vk.png" alt="ВК" width="50"></a>
-    <a href = "https://www.instagram.com/pavlovaira_/"> <img src = "img/inst.png" alt="Инстаграм" width="50"></a>
-    <a href = "https://github.com/Anna12777"> <img src = "img/git.png" alt="Гитхаб" width="50"></a>
-    </div>
+    <div class="footer_wrapper">
+    <p>
+    <a class="footer_logo" href = "https://vk.com/i.web.designer"> <img src = "img/vk.png" alt="ВК" width="50"></a>
+    <a class="footer_logo" href = "https://www.instagram.com/pavlovaira_/"> <img src = "img/inst.png" alt="Инстаграм" width="50"></a>
+    <a class="footer_logo" href = "https://github.com/Anna12777"> <img src = "img/git.png" alt="Гитхаб" width="50"></a>
+    </p>
     <p>
     Сайт разработан Попова Анна Александровна, Copyright 2021
     </p>
+    </div>
     </footer>
     </body>
 </html>
