@@ -1,0 +1,41 @@
+.header_wrapper {display: flex;justify-content: space-between;background-color:   rgb(255, 226, 98);align-items: center;}
+body {margin: 0;padding: 0;font-family: 'Times New Roman', Times, serif;background-color: rgba(255, 226, 98, 0.884);}
+.header_menu {display: flex;flex-direction: row;justify-content: flex-end;align-items: center;justify-content: space-between;font-size: 20px;}
+li {margin-right:40px;} /*Добавляем отступ у пунктов меню*/
+.header_logo {display: flex;align-items: center;justify-content: flex-start;}/*плавное подчеркивание и левая рамка */
+.header_nav a {border-left: 1.5px solid rgb(50, 110, 38); padding: 1.5px; background: #7860ff00; color: rgb(50, 110, 38);}
+.header_nav a {text-decoration:none; display: inline-block; line-height: 1; color:rgb(50, 110, 38);}
+.header_nav a:after {display: block; content: ""; height: 2px; width: 0%; background-color: rgb(50, 110, 38); transition: width 0.4s ease-in-out;}
+.header_nav a:focus:after {width: 100%;}
+header {text-align: center;background-image: url(https://i.artfile.ru/2200x1313_1508885_[www.ArtFile.ru].jpg);height: 380px;background-repeat: no-repeat;background-position: left;background-color:  rgba(255, 226, 98, 0.425);background-attachment: scroll;background-size: cover;padding-left: 200px;padding-top: 200px;}  
+h1 {font-family: 'Times New Roman', Times, serif; font-style: normal;font-weight: 400;  font-size: 100px;color: rgb(255, 226, 98);}
+h3 { font-family: 'Times New Roman', Times, serif; font-style: normal; font-weight: 400; font-size: 25px;color: rgb(50, 110, 38);}
+h2 { font-family: 'Times New Roman', Times, serif; font-style: normal;font-weight: 400;  font-size: 20px;color: rgb(255, 226, 98);}
+h4 { font-family: 'Times New Roman', Times, serif; font-style: normal; font-weight: 400; font-size: 17px;color: rgb(36, 36, 36);}
+h5{font-size: 17px;color: rgb(255, 226, 98);}
+footer {height: 80px;margin: auto;margin-left: 2px;border: double 9px rgb(255, 187, 85);background-color: rgba(50, 110, 38, 0.514);}
+.footer_2 {display: flex;align-items: center;justify-content: space-around;}
+.flex-row-div {display: flex;justify-content: space-around;margin-top: 30px;margin-right: 300px;align-items: flex-start;}
+.flex-row-div-between-center {display: flex;flex-direction: row;align-items: flex-end;margin-top: 30px;}
+.wrapper {max-width: 1024px;height: 300px;margin: 0 auto;background-color: rgba(255, 226, 98, 0.425);}
+.b_1 {display: flex;align-items: center;justify-content: space-between;height: 250px;padding-left: 65px;padding-right: 65px;}
+.b_2 {flex-direction: column;align-items: center;justify-content: space-between;height: 350px;padding-left: 30px;background-color: rgba(50, 110, 38, 0.596);}
+.b_3 {flex-direction: column;align-items: center;justify-content: space-between;height: 300px;padding-left: 65px;}
+.b_4 {flex-direction: column;align-items: center;justify-content: space-between;height: 170px;padding-left: 90px;background-color: rgba(50, 110, 38, 0.596);}
+.t_1 {display: scroll;justify-content: left;color: rgb(50, 110, 38);}
+.t_2 {text-align: center;padding-top: 20px;background-repeat: no-repeat;background-position: left;background-attachment: fixed;background-size: cover;align-items: center;justify-content: space-around;color: rgb(255, 226, 98); }
+.t_3 {text-align: center;padding-top: 20px;background-repeat: no-repeat;background-position: left;background-attachment: fixed;background-size: cover;align-items: center;justify-content: space-around;color: rgb(50, 110, 38); }
+.t_4 {text-align: center;padding-top: 20px;background-repeat: no-repeat;background-position: left;background-attachment: fixed;background-size: cover;align-items: center;justify-content: space-around;color: rgb(255, 226, 98); }
+.text_5 {text-align: center;padding-top: 20px;background-repeat: no-repeat;background-position: left;background-attachment: fixed;background-size: cover;align-items: center;justify-content: space-around;color: rgb(36, 36, 36); }
+.vid {display: flex;align-items: center;justify-content: space-around;}
+.facts {display: flex;justify-content: space-between;}
+ul {list-style-type:disc;}
+.s_1 {display: flex;width:49%;float:left;}
+.s_2 {display: flex;width:49%;float:left;}
+.ssilka {margin: 24px;text-align: center;}
+.table {margin: auto;width: 90%;margin-bottom: 20px;border: 2px solid rgb(36, 36, 36);font-size: 15px;}
+.table th {font-weight: bold;padding: 7px;background: rgba(50, 110, 38, 0.514);border: none;text-align: left;font-size: 17px;text-align: center;}
+.table td {padding: 5px;border: none;font-size: 16px;}
+.table tbody tr {background: rgba(50, 110, 38, 0.514);}
+
+   

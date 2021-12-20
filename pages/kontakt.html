@@ -1,59 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/fon.css">
-    <title>Document</title>
-    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet"> 
-</head>
-<body>
-    <header>
-       <div class="header_wrapper">
-        <div class="header_logo"><a href="logo.png"><img src="img/logo.png" alt="Логотип"  width="100"></a></div>
-    <nav class="header_nav"> 
-         <ul class="header_menu">
-            
-             <li class="header_item"><a href="pages/salfe.html">О СЕБЕ</a></li>
-             <li class="header_item"><a href="index.html.html#footprint">КОМПЕТЕНЦИИ</a></li>
-             <li class="header_item"><a href="pages/salfe.html">РЕЗЮМЕ</a></li>
-             <li class="header_item"><a href="pages/salfe.html">ПОРТФОЛИО</a></li>
-             <li class="header_item"><a href="pages/kontakt.html">КОНТАКТЫ</a></li>
-        </ul>
-    </nav>
-</div>
-<h1> Веб-технологии </h1> 
-</header>
-<article>
-   <h2>
-       Академия технологий
-   </h2>
-   <h3>
-   <p>Есть вопросы или предложения?</p>
-</h3>
-<form>
-<p> Как вам удобно будет получить ответ?</p>
-<div> 
-<input type="radio" name="сontact" id="сontactChoice" value="на почту">  
-<label for="contactChoice">email</label>
-<input type="radio" name="сontact" id="сontactChoice" value="на телефон"> 
-<label for="contactChoice">телефон</label>
-<input type="radio" name="сontact" id="сontactChoice" value="не нужна обратная связь">
-<label for="contactChoice">не нужна обратная связь</label>
-</div>
-</form>
-</article>
+    <head>
+        <link rel="stylesheet" href="../css/style.css">
+        <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet"> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Контакты</title>
+    </head>
+    <body>
+        <nav>
+            <div class="header_wrapper">
+                <div class="header_logo">
+                    <a href="index.html"><img src="../img/logo.png" alt="Логотип" height="60" width="60"></a>
+                </div>
+                <div class="header_nav">
+            <ul class="header_menu">
+                <li><a href="../index.html.html">О себе</a></li>
+                <li><a href="../pages/rezume.html">Резюме</a></li>
+                <li><a href="../pages/portfolio.html">Портфолио</a></li>
+                <li><a href="../index.html.html#three">Компетенции</a></li>
+                <li><a href="../pages/kontakt.html">Контакты</a></li>
+                <li><a href="../pages/gallery.html">Галерея</a></li>
+                <li><a href="../pages/forma.html">javaScript</a></li>
+            </ul>
+        </div>
+        </div>
+        </nav>
+        <header>
+            <h1>Контакты</h1>
+        </header>
+        <style>
+    .grid-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2vw;
+    justify-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid rgba(50, 110, 38, 0.596);
+}
+
+.main-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+	width: 200px;
+	border:3px ridge rgba(50, 110, 38, 0.596);
+	padding: 35px;
+	border-radius: 35px;
+	box-shadow: 1px 1px 6px 3px rgba(50, 110, 38, 0.596);
+}
+
+.flex-row-kontakt {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30px;
+}
+.flex-row-div-kontakt {
+    display: flex;
+    justify-content: center;
+
+}
+        </style>
+
+        <main >
+            <div class="grid-container">
+                <div class="main-form">
+                    <h4>Я в социальных сетях:</h4>
+                    <div class="flex-row-div-kontakt">
+                        <a href="https://vk.com/i.web.designer/"><img src = "../img/vk.png" alt="ВК" width="50"></a>
+            <a href="https://www.instagram.com/pavlovaira_/"><img src = "../img/inst.png" alt="Инстаграм" width="50"></a>
+            <a href="https://github.com/Anna12777"><img src = "../img/git.png" alt="Гитхаб" width="50"></a>
+                    </div>
+                </div>
+    
+                <div class="main-form">
+                    <h4>Почта:</h4>
+                    <p>miracle.16710@gmail.com</p>
+                </div>
+    
+                <div class="main-form">
+                    <h4>Телефон:</h4>
+                    <p>+79660437441</p>
+                </div>
+            </div>
 <footer>
-    <div class="footer_wrapper">
-    <p>
-    <a class="footer_logo" href = "https://vk.com/i.web.designer"> <img src = "img/vk.png" alt="ВК" width="50"></a>
-    <a class="footer_logo" href = "https://www.instagram.com/pavlovaira_/"> <img src = "img/inst.png" alt="Инстаграм" width="50"></a>
-    <a class="footer_logo" href = "https://github.com/Anna12777"> <img src = "img/git.png" alt="Гитхаб" width="50"></a>
-    </p>
-    <p>
-    Сайт разработан Попова Анна Александровна, Copyright 2021
-    </p>
+    <div class="footer_2">
+    <div class="flex-row-div">
     </div>
+    <div class="flex-row-div-between-center">
+        Сайт разработан Поповой Анной, Copyright © 2021.
+    </div>
+</div>
 </footer>
 </body>
 </html>
